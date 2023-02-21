@@ -2,7 +2,7 @@
 import express from 'express';
 import {ProductManager} from './ProductManager.js';
 
-const productManager = new ProductManager('./src/Product.json');
+const productManager = new ProductManager('./Product.json');
 
 //CREAMOS SERVIDOR EXPRESS
 const app = express();
