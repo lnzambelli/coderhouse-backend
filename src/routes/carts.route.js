@@ -23,7 +23,6 @@ route.get('/:cid', async (req, res)=> {
 
 route.post('/:cid/product/:pid', async (req, res) => {
     const {cid, pid} = req.params;
-    
     const carts = await fileManager.getAll();
     const cartFound = carts.find(cart => cart.id == cid);
     if (!cartFound){
@@ -49,7 +48,7 @@ route.post('/:cid/product/:pid', async (req, res) => {
     const products = { products: [...productOutCart, newProduct]}
     await fileManager.update(cid, products);
     
-    res.status(201).send();
+    res.status(200).send({ok: true});
 });
 
 export default route;

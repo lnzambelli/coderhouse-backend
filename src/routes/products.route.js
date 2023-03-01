@@ -1,5 +1,6 @@
 import { Router } from "express";
 import { FileManager } from "../utils/fileManager.js";
+import { validateProduct } from "../data/validations.js";
 
 const fileManager = new FileManager('./src/data/Product.json')
 const route = Router();
@@ -29,6 +30,13 @@ route.get('/:pid', async (req, res)=> {
 
 route.post('/', async (req, res) => {
   const product = req.body;
+  const isValid = validateProduct(product);
+  if (!isValid) {
+    res.status(400).send({
+      error: 'Faltan datos obigatorios o estan incorrectos',
+    });
+    return;
+  }
   product["status"] = true;
   if (!product.thumbnails){
     product["thumbnail"] = [];

@@ -4,9 +4,7 @@
     "title": "Notebook",
     "description": "Lenovo",
     "price": 100000,
-    "thumbnail": [
-      "sin imagen"
-    ],
+    "thumbnail": [],
     "code": "N001",
     "stock": 10,
     "status": true,
@@ -17,9 +15,7 @@
     "title": "Impresora",
     "description": "HP",
     "price": 60,
-    "thumbnail": [
-      "sin imagen"
-    ],
+    "thumbnail": [],
     "code": "H001",
     "stock": 5,
     "status": true,
@@ -30,9 +26,7 @@
     "title": "Tablet",
     "description": "Sansung",
     "price": 60000,
-    "thumbnail": [
-      "sin imagen"
-    ],
+    "thumbnail": [],
     "code": "T002",
     "stock": 4,
     "status": true,
@@ -43,9 +37,7 @@
     "title": "Tablet",
     "description": "Acer",
     "price": 45000,
-    "thumbnail": [
-      "sin imagen"
-    ],
+    "thumbnail": [],
     "code": "T003",
     "stock": 9,
     "status": true,
@@ -56,9 +48,7 @@
     "title": "Notebook",
     "description": "Acer",
     "price": 120000,
-    "thumbnail": [
-      "sin imagen"
-    ],
+    "thumbnail": [],
     "code": "N002",
     "stock": 1,
     "status": true,
@@ -69,9 +59,7 @@
     "title": "Monitor",
     "description": "Sansung",
     "price": 40000,
-    "thumbnail": [
-      "sin imagen"
-    ],
+    "thumbnail": [],
     "code": "M001",
     "stock": 1,
     "status": true,
@@ -82,9 +70,7 @@
     "title": "Monitor",
     "description": "Lenovo",
     "price": 40000,
-    "thumbnail": [
-      "sin imagen"
-    ],
+    "thumbnail": [],
     "code": "M002",
     "stock": 4,
     "status": true,
@@ -95,9 +81,7 @@
     "title": "Celular",
     "description": "Sansung",
     "price": 90000,
-    "thumbnail": [
-      "sin imagen"
-    ],
+    "thumbnail": [],
     "code": "C001",
     "stock": 9,
     "status": true,
@@ -108,9 +92,7 @@
     "title": "Celular",
     "description": "Motorola",
     "price": 85000,
-    "thumbnail": [
-      "sin imagen"
-    ],
+    "thumbnail": [],
     "code": "C002",
     "stock": 9,
     "status": true,
@@ -121,12 +103,21 @@
     "title": "Tablet",
     "description": "Lenovo",
     "price": 70000,
-    "thumbnail": [
-      "sin imagen"
-    ],
+    "thumbnail": [],
     "code": "T001",
     "stock": 20,
     "status": true,
     "category": "note"
+  },
+  {
+    "id": "4731986c-822e-4715-919a-8e685e25e8ce",
+    "title": "Toner",
+    "description": "HP",
+    "price": 1000,
+    "code": "TN01",
+    "stock": 12,
+    "status": true,
+    "category": "toner",
+    "thumbnail": []
   }
 ]
