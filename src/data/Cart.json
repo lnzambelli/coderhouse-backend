@@ -1,0 +1,28 @@
+[
+  {
+    "id": "1b61fc79-8c3d-4d39-84e3-8963ff0a6f48",
+    "products": [
+      {
+        "product": "1b61fc79-8c3d-4d39-84e3-8963ff0a6f42",
+        "quantity": 1
+      },
+      {
+        "product": "1b61fc79-8c3d-4d39-84e3-8963ff0a6f41",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "1b61fc79-8c3d-4d39-84e3-8963ff0a6f56",
+    "products": [
+      {
+        "product": "1b61fc79-8c3d-4d39-84e3-8963ff0a6f41",
+        "quantity": 2
+      },
+      {
+        "product": "1b61fc79-8c3d-4d39-84e3-8963ff0a6f42",
+        "quantity": 2
+      }
+    ]
+  }
+]

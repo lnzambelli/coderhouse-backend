@@ -1,0 +1,132 @@
+[
+  {
+    "id": "1b61fc79-8c3d-4d39-84e3-8963ff0a6f41",
+    "title": "Notebook",
+    "description": "Lenovo",
+    "price": 100000,
+    "thumbnail": [
+      "sin imagen"
+    ],
+    "code": "N001",
+    "stock": 10,
+    "status": true,
+    "category": "note"
+  },
+  {
+    "id": "1b61fc79-8c3d-4d39-84e3-8963ff0a6f42",
+    "title": "Impresora",
+    "description": "HP",
+    "price": 60,
+    "thumbnail": [
+      "sin imagen"
+    ],
+    "code": "H001",
+    "stock": 5,
+    "status": true,
+    "category": "note"
+  },
+  {
+    "id": "1b61fc79-8c3d-4d39-84e3-8963ff0a6f43",
+    "title": "Tablet",
+    "description": "Sansung",
+    "price": 60000,
+    "thumbnail": [
+      "sin imagen"
+    ],
+    "code": "T002",
+    "stock": 4,
+    "status": true,
+    "category": "note"
+  },
+  {
+    "id": "1b61fc79-8c3d-4d39-84e3-8963ff0a6f44",
+    "title": "Tablet",
+    "description": "Acer",
+    "price": 45000,
+    "thumbnail": [
+      "sin imagen"
+    ],
+    "code": "T003",
+    "stock": 9,
+    "status": true,
+    "category": "note"
+  },
+  {
+    "id": "1b61fc79-8c3d-4d39-84e3-8963ff0a6f45",
+    "title": "Notebook",
+    "description": "Acer",
+    "price": 120000,
+    "thumbnail": [
+      "sin imagen"
+    ],
+    "code": "N002",
+    "stock": 1,
+    "status": true,
+    "category": "note"
+  },
+  {
+    "id": "1b61fc79-8c3d-4d39-84e3-8963ff0a6f46",
+    "title": "Monitor",
+    "description": "Sansung",
+    "price": 40000,
+    "thumbnail": [
+      "sin imagen"
+    ],
+    "code": "M001",
+    "stock": 1,
+    "status": true,
+    "category": "note"
+  },
+  {
+    "id": "1b61fc79-8c3d-4d39-84e3-8963ff0a6f47",
+    "title": "Monitor",
+    "description": "Lenovo",
+    "price": 40000,
+    "thumbnail": [
+      "sin imagen"
+    ],
+    "code": "M002",
+    "stock": 4,
+    "status": true,
+    "category": "note"
+  },
+  {
+    "id": "1b61fc79-8c3d-4d39-84e3-8963ff0a6f48",
+    "title": "Celular",
+    "description": "Sansung",
+    "price": 90000,
+    "thumbnail": [
+      "sin imagen"
+    ],
+    "code": "C001",
+    "stock": 9,
+    "status": true,
+    "category": "note"
+  },
+  {
+    "id": "1b61fc79-8c3d-4d39-84e3-8963ff0a6f49",
+    "title": "Celular",
+    "description": "Motorola",
+    "price": 85000,
+    "thumbnail": [
+      "sin imagen"
+    ],
+    "code": "C002",
+    "stock": 9,
+    "status": true,
+    "category": "note"
+  },
+  {
+    "id": "1b61fc79-8c3d-4d39-84e3-8963ff0a6f56",
+    "title": "Tablet",
+    "description": "Lenovo",
+    "price": 70000,
+    "thumbnail": [
+      "sin imagen"
+    ],
+    "code": "T001",
+    "stock": 20,
+    "status": true,
+    "category": "note"
+  }
+]
