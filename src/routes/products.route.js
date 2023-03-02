@@ -19,7 +19,7 @@ route.get('/', async (req, res)=> {
 route.get('/:pid', async (req, res)=> {
   const {pid} = req.params;
   const productList = await fileManager.getAll();
-  const productFound = productList.find(product => product.id == +pid)
+  const productFound = productList.find(product => product.id == pid)
   if (productFound){
       res.send(productFound);
   }
