@@ -9,7 +9,7 @@ route.get('/', async (req, res)=> {
   const {limit} = req.query;
   const productList = await fileManager.getAll();
   if (!limit){
-      res.send(productList)
+     res.send(productList)
   }else{
       const productcListLimit = productList.slice(0,limit)
       res.send(productcListLimit)
