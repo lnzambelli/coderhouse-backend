@@ -24,7 +24,7 @@
   {
     "id": "1b61fc79-8c3d-4d39-84e3-8963ff0a6f43",
     "title": "Tablet",
-    "description": "Sansung",
+    "description": "Samsung",
     "price": 60000,
     "thumbnail": [],
     "code": "T002",
@@ -57,7 +57,7 @@
   {
     "id": "1b61fc79-8c3d-4d39-84e3-8963ff0a6f46",
     "title": "Monitor",
-    "description": "Sansung",
+    "description": "Samsung",
     "price": 40000,
     "thumbnail": [],
     "code": "M001",
@@ -79,7 +79,7 @@
   {
     "id": "1b61fc79-8c3d-4d39-84e3-8963ff0a6f48",
     "title": "Celular",
-    "description": "Sansung",
+    "description": "Samsung",
     "price": 90000,
     "thumbnail": [],
     "code": "C001",

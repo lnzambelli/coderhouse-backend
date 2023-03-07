@@ -1,4 +1,4 @@
-.tableContainer{
+.tableContainer {
     font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
 }
 
@@ -7,10 +7,11 @@ table {
     font-size: 12px;        
     text-align: left;    
     border-collapse: collapse; 
+    width: 100%;
 }
 
-th {     
-    font-size: 13px;     
+th ,h1{     
+    font-size: 14px;     
     font-weight: normal;     
     padding: 8px;     
     background: #b9c9fe;
@@ -30,3 +31,11 @@ tr:hover td {
     background: #d0dafd; 
     color: #339; 
 }
+
+h1 {
+    font-size: 16px;
+    text-align: center;
+    text-transform:uppercase ;
+    margin-bottom: 0px;
+    border-bottom: 0px;
+ }

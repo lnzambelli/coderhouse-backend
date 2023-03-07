@@ -10,8 +10,7 @@ route.get('/', async (req, res)=> {
 })
 
 route.get('/realtimeproducts', async (req, res)=> {
-    const productList = await fileManager.getAll();
-    res.render('home', {products: productList})
+    res.render('realTimeProducts', {titulo: 'Aplicamos Socket.io'})
 })
 
 export default route;
