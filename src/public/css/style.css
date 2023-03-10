@@ -38,4 +38,25 @@ h1 {
     text-transform:uppercase ;
     margin-bottom: 0px;
     border-bottom: 0px;
- }
+}
+
+button:hover{
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    background-color: #339;
+    color: #d0dafd;
+    border-color: #339 ;
+}
+
+button{
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    background-color: #d0dafd;
+    color: #339;
+    border-color: #339 ;
+}
+
+form{
+    background: #d0dafd; 
+    color: #339; 
+}

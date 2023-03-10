@@ -1,27 +1,5 @@
 [
   {
-    "id": "1b61fc79-8c3d-4d39-84e3-8963ff0a6f41",
-    "title": "Notebook",
-    "description": "Lenovo",
-    "price": 100000,
-    "thumbnail": [],
-    "code": "N001",
-    "stock": 10,
-    "status": true,
-    "category": "note"
-  },
-  {
-    "id": "1b61fc79-8c3d-4d39-84e3-8963ff0a6f42",
-    "title": "Impresora",
-    "description": "HP",
-    "price": 60,
-    "thumbnail": [],
-    "code": "H001",
-    "stock": 5,
-    "status": true,
-    "category": "note"
-  },
-  {
     "id": "1b61fc79-8c3d-4d39-84e3-8963ff0a6f43",
     "title": "Tablet",
     "description": "Samsung",
@@ -29,17 +7,6 @@
     "thumbnail": [],
     "code": "T002",
     "stock": 4,
-    "status": true,
-    "category": "note"
-  },
-  {
-    "id": "1b61fc79-8c3d-4d39-84e3-8963ff0a6f44",
-    "title": "Tablet",
-    "description": "Acer",
-    "price": 45000,
-    "thumbnail": [],
-    "code": "T003",
-    "stock": 9,
     "status": true,
     "category": "note"
   },
@@ -88,17 +55,6 @@
     "category": "note"
   },
   {
-    "id": "1b61fc79-8c3d-4d39-84e3-8963ff0a6f49",
-    "title": "Celular",
-    "description": "Motorola",
-    "price": 85000,
-    "thumbnail": [],
-    "code": "C002",
-    "stock": 9,
-    "status": true,
-    "category": "note"
-  },
-  {
     "id": "1b61fc79-8c3d-4d39-84e3-8963ff0a6f56",
     "title": "Tablet",
     "description": "Lenovo",
@@ -110,14 +66,47 @@
     "category": "note"
   },
   {
-    "id": "4731986c-822e-4715-919a-8e685e25e8ce",
-    "title": "Toner",
-    "description": "HP",
-    "price": 1000,
-    "code": "TN01",
-    "stock": 12,
+    "id": "1b61fc79-8c3d-4d39-84e3-8963ff0a6f44",
+    "title": "Tablet",
+    "description": "Acer",
+    "price": 45000,
+    "thumbnail": [],
+    "code": "T003",
+    "stock": 9,
     "status": true,
-    "category": "toner",
-    "thumbnail": []
+    "category": "note"
+  },
+  {
+    "id": "1b61fc79-8c3d-4d39-84e3-8963ff0a6f47",
+    "title": "Monitor",
+    "description": "Lenovo",
+    "price": 40000,
+    "thumbnail": [],
+    "code": "M002",
+    "stock": 4,
+    "status": true,
+    "category": "note"
+  },
+  {
+    "id": "1b61fc79-8c3d-4d39-84e3-8963ff0a6f42",
+    "title": "Impresora",
+    "description": "HP",
+    "price": 60,
+    "thumbnail": [],
+    "code": "H001",
+    "stock": 5,
+    "status": true,
+    "category": "note"
+  },
+  {
+    "id": "c00c9cdb-3e1c-41ec-b4b8-679aeb98b2c0",
+    "title": "Parlante",
+    "description": "JBL",
+    "price": 6000,
+    "thumbnail": [],
+    "code": "P005",
+    "stock": 1,
+    "status": false,
+    "category": "Musica"
   }
 ]

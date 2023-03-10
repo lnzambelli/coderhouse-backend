@@ -7,6 +7,7 @@ import viewsRoute from './routes/views.router.js'
 import fileDirName from './utils/fileDirName.js';
 import { uploader } from './utils/uploader.js';
 import handlebars from 'express-handlebars';
+import { Server } from 'socket.io';
 
 const { __dirname } = fileDirName(import.meta);
 
@@ -45,6 +46,9 @@ app.use((error, req, res,next)=>{
     res.status(500).send({error: "error del servidor no controlado"});
 })
 
-app.listen(port, ()=>{
+export  const httpServer = app.listen(port, ()=>{
     console.log(`server http corriendo en el puerto ${port}`)
 })
+
+export const socketServer = new Server(httpServer);
+
